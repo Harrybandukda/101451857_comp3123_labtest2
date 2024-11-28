@@ -1,4 +1,4 @@
-# COMP 3123 - Assignment Two - Full Stack Development I
+# COMP 3123 - Lab Test Two - Full Stack Development I
 
 **Student Name**: Mo Harry Bandukda  
 **Student ID**: 101451857  
@@ -23,13 +23,12 @@ To clone and run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Harrybandukda/101451857_comp3123_labtest2.git
    ```
 
 2. Install dependencies:
    ```bash
-   npm install @mui/material @mui/icons-material @emotion/react @emotion/styled axios react-icons
+   npm install axios 
    ```
 
 3. Start the application:
@@ -42,5 +41,3 @@ This will start the app and you can access it locally. It fetches data from the 
 ---
 
 📝 **Created by Mo Harry Bandukda**
-
----
