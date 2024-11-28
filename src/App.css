@@ -23,15 +23,16 @@ body {
   padding: 1rem;
   position: relative;
   overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .weather-app {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(236, 233, 233, 0.8);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  max-width: 400px;
+  padding: 3rem;
+  max-width: 600px;
   width: 100%;
   position: relative;
   z-index: 1;
@@ -209,6 +210,3 @@ h1 {
   font-size: 1.2rem;
   color: #666;
 }
-
-
-
