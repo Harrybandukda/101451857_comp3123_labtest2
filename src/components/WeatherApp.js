@@ -23,11 +23,11 @@ const WeatherApp = () => {
   }, [city]); 
 
   useEffect(() => {
-    getWeatherData();
-  }, [getWeatherData]); 
+    getWeatherData(city);  
+  }, [city, getWeatherData]);
 
   const handleSearch = (searchCity) => {
-    setCity(searchCity);
+    setCity(searchCity);  
   };
 
   return (
