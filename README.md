@@ -16,9 +16,6 @@ This is a Weather App built using **React**. It fetches weather data via the Ope
 
 ---
 
-📝 **Created by Mo Harry Bandukda**
-
----
 
 ### Installation and Running the App:
 
@@ -41,3 +38,9 @@ To clone and run the project locally, follow these steps:
    ```
 
 This will start the app and you can access it locally. It fetches data from the OpenWeatherMap API and displays the current weather with relevant details.
+
+---
+
+📝 **Created by Mo Harry Bandukda**
+
+---
