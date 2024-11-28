@@ -1,7 +1,9 @@
 import React from 'react';
 
 const WeatherDisplay = ({ data }) => {
-  const { name, main, weather, wind } = data;
+  const { name, main, weather, wind, sys } = data;
+  const sunrise = new Date(sys.sunrise * 1000).toLocaleTimeString();
+  const sunset = new Date(sys.sunset * 1000).toLocaleTimeString();
 
   return (
     <div className="weather-display">
@@ -25,10 +27,19 @@ const WeatherDisplay = ({ data }) => {
           <p>Wind Speed</p>
           <p>{wind.speed} m/s</p>
         </div>
+        <div>
+          <i className="fas fa-sun"></i>
+          <p>Sunrise</p>
+          <p>{sunrise}</p>
+        </div>
+        <div>
+          <i className="fas fa-moon"></i>
+          <p>Sunset</p>
+          <p>{sunset}</p>
+        </div>
       </div>
     </div>
   );
 };
 
 export default WeatherDisplay;
-
